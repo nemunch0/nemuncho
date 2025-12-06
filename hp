@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body{
+	background-image:url("");
+	background-repeat: repeat;
+	color: #3355aa;
+	background-color: #e0eef0;
+}
+
+a:link{color: #8866aa;}
+a:visited{color: #66aa88;}
+a:active{color: #aa6688;}
+a:hover{
+	color: #aa33aa;
+	position:relative;
+	top:1px;
+	left:1px;
+}
+details{
+	color: #6688aa;
+	font-size: 16px;
+	padding: 10px;
+}
+
+summary{
+	border-bottom: 1px solid #88aaee;
+	color: #557799;
+	font-size: 18px;
+}
+
+.sotowaku{
+	height: 500px;
+	width: 500px;
+	border: 0px solid #aaaaaa;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.top{
+	background-image:url("pic/top.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 120px;
+	text-align: center;
+	border: solid 0px #ffaaaa;
+	font-size: 40px;
+	color: #4488aa;
+	padding-top: 40px;
+}
+
+.kousin{
+	text-align: center;
+	font-size: 15px;
+	color: #6688aa;
+	margin: 0 auto;
+}
+
+.con{
+	background:rgba(255,255,255,0.3);
+	border: solid 0px #330033;
+	width: 500px;
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.haku{
+	border: solid 0px #ffffff;
+	width: 500px;
+	height: 20px;
+}
+
+.hai{
+	border: solid 0px #ffffff;
+	padding: 10px;
+}
+
+.asiato{
+	background:rgba(255,255,255,0.6);
+	height: 35px;
+	border: none 1px #aaaaaa;
+	text-align: center;
+	font-size: 15px;
+	color: #5599bb;
+	padding: 10px;
+	margin: 0 auto;
+}
